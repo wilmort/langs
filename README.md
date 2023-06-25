@@ -1,3 +1,3 @@
 Just a place for practice, exercises, and experimentation with C, Go, Python, and Rust! 
 
-....also, to get used to using Git daily ;)
+As a bonus, this repo will also help me become more familiar with Git and managing enviroments by rotating my work across my Windows, Linux, and Mac machines. 
