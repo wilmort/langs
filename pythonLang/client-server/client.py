@@ -11,6 +11,8 @@ ADDR = (SERVER, PORT)
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.connect(ADDR)
 
+print(f"You are now connnected to: {ADDR}")
+
 def send(msg):
     message = msg.encode(FORMAT)
     msg_length = len(message)
@@ -24,5 +26,6 @@ def send(msg):
 connected = True
 
 while connected:
+    print("You: ", end='')
     msgToSend = input()
     send(msgToSend)

@@ -30,7 +30,8 @@ def handle_client(conn, addr):
                 connected= False            
             
             print(f"[{addr, msg}]")
-    
+
+            print("[THIS SERVER]: ", end='')
             reply = input()
             reply_msg = reply.encode(FORMAT)
             conn.send(reply_msg)
