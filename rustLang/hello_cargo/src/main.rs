@@ -1,3 +1,3 @@
 fn main() {
-    println!("Hello, world\n\t-but with Cargo!");
+    println!("Hello, world - but with Cargo!");
 }
